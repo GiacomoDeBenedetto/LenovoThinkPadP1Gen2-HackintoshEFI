@@ -2,6 +2,7 @@
 A working EFI directory for Lenovo P1 Gen2 Hackintosh.
 Tested with MacOS Catalina 10.15.
 Not tested with newer versions.
+Based on Clover 5118.
 
 **Note**: The default configuration is for Xeon-based laptop with 4K display. You will find other configs fot other configuration in "configs" directory. 
 The installer is in Chinese. Complete it and after that, change language and keyboard settings using System Preferences.
