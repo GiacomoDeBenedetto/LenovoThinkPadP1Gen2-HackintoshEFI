@@ -19,7 +19,7 @@ The installer is in Chinese. Complete it and after that, change language and key
 
 ## Not Working
 * Dedicated Graphics (NVIDIA Quadro)
-* HDMI Ports
+* HDMI Port
 * External Displays with USB-C
 * Thunderbolt ports (not tested)
 
