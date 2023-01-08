@@ -8,7 +8,7 @@ Based on Clover 5118.
 The installer is in Chinese. Complete it and after that, change language and keyboard settings using System Preferences.
 
 ## What Works
-* WiFi/Bluetooth (must use [HeliPort](https://github.com/OpenIntelWireless/HeliPort) as GUI)
+* WiFi/Bluetooth/Ethernet (must use [HeliPort](https://github.com/OpenIntelWireless/HeliPort) as GUI)
 * Display Brightness and full Display resolution with high DPI
 * Graphics Acceleration (Integrated)
 * Audio
@@ -24,4 +24,4 @@ The installer is in Chinese. Complete it and after that, change language and key
 * Thunderbolt ports (not tested)
 
 **Addendum**: Power management is very poor, battery tends to drain very fast. 
-Need proper optimization with CPUFriend kext.
+Need proper optimization with [CPUFriend](https://github.com/acidanthera/CPUFriend).
