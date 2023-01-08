@@ -1,0 +1,120 @@
+9:780  4:947  Found UEFI Acpi 2.0 RSDP at 9840E014
+9:780  0:000  Saving ACPI tables from RSDP 9840E014 to EFI\CLOVER\ACPI\origin ...
+9:780  0:000   9840E014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:879  0:098    (Xsdt: 9840C188, Rsdt: 9840C0C4)
+9:879  0:000    9840C188: 'XSDT', 'TP-N2O', Rev: 1, Len: 268 -> XSDT.aml
+9:975  0:095    9840C0C4: 'RSDT', 'TP-N2O', Rev: 1, Len: 152 -> RSDT.aml
+10:071  0:096    Tables in Xsdt: 29
+10:071  0:000    0. 95CAD000: 'FACP', 'TP-N2O', Rev: 6, Len: 276 -> FACP.aml
+10:167  0:095        (Dsdt: 95C82000, Facs: 981EB000, XDsdt: 95C82000, XFacs: 0)
+10:167  0:000        95C82000: 'DSDT', 'CFL', Rev: 2, Len: 157823 -> DSDT.aml
+10:295  0:127        981EB000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+10:402  0:107    1. 95D04000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+10:506  0:104        * 98160098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1536  53 53 44 54 00 06 00 00 02 B1 50 6D 52 65 66 00 Internal length = 1536 -> SSDT-x0_0-Cpu0Ist.aml
+10:611  0:104        * 98151018: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x0_1-ApIst.aml
+10:757  0:146        * 98151698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+10:848  0:090        * 98152A98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+10:954  0:106        * 98160898: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 329  53 53 44 54 49 01 00 00 02 51 50 6D 52 65 66 00 Internal length = 329 -> SSDT-x0_4-Cpu0Hwp.aml
+11:058  0:104        * 98160B18: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+11:162  0:103        * 98152018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+11:266  0:103        * 98160718: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+11:402  0:136        * 98150018: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x0_8-ApPsd.aml
+11:504  0:102  
+11:504  0:000    2. 95D03000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389 -> SSDT-1-CtdpB.aml
+11:605  0:100    3. 95CC9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 21120 -> SSDT-2-DptfTabl.aml
+11:715  0:110    4. 95CB2000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12605 -> SSDT-3-SaSsdt.aml
+11:824  0:109    5. 95CAF000: 'SSDT', 'PegSsdt', Rev: 2, Len: 10844 -> SSDT-4-PegSsdt.aml
+11:960  0:135    6. 9820C000: 'UEFI', 'TP-N2O', Rev: 1, Len: 66 -> UEFI.aml
+12:056  0:095    7. 95CAE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328 -> SSDT-5-PerfTune.aml
+12:152  0:096    8. 95CAC000: 'HPET', 'TP-N2O', Rev: 1, Len: 56 -> HPET.aml
+12:249  0:096    9. 95CAB000: 'APIC', 'TP-N2O', Rev: 3, Len: 300 -> APIC.aml
+12:346  0:097    10. 95CAA000: 'MCFG', 'TP-N2O', Rev: 1, Len: 60 -> MCFG.aml
+12:442  0:096    11. 95CA9000: 'ECDT', 'TP-N2O', Rev: 1, Len: 83 -> ECDT.aml
+12:538  0:095    12. 95C80000: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 6725 -> SSDT-6-CflH_Tbt.aml
+12:631  0:093    13. 95C7D000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 10507 -> SSDT-7-ProjSsdt.aml
+12:724  0:093    14. 95C7C000: 'BOOT', 'TP-N2O', Rev: 1, Len: 40 -> BOOT.aml
+12:850  0:125    15. 95C7B000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3817 -> SSDT-8-UsbCTabl.aml
+12:937  0:086    16. 95C7A000: 'LPIT', 'TP-N2O', Rev: 1, Len: 148 -> LPIT.aml
+13:034  0:097    17. 95C79000: 'WSMT', 'TP-N2O', Rev: 1, Len: 40 -> WSMT.aml
+13:132  0:097    18. 95C77000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5759 -> SSDT-9-TbtTypeC.aml
+13:232  0:100    19. 95C76000: 'DBGP', 'TP-N2O', Rev: 1, Len: 52 -> DBGP.aml
+13:327  0:095    20. 95C75000: 'DBG2', 'TP-N2O', Rev: 0, Len: 84 -> DBG2.aml
+13:422  0:094    21. 95C74000: 'MSDM', 'TP-N2O', Rev: 3, Len: 85 -> MSDM.aml
+13:517  0:094    22. 95A96000: 'BATB', 'TP-N2O', Rev: 2, Len: 74 -> BATB.aml
+13:608  0:091    23. 93C8F000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 6971 -> SSDT-10-NvOptTbl.aml
+13:699  0:091    24. 93C8E000: 'NHLT', 'TP-N2O', Rev: 0, Len: 45 -> NHLT.aml
+13:823  0:123    25. 93C8D000: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-11-SgPeg.aml
+13:916  0:093    26. 93C8B000: 'FPDT', 'TP-N2O', Rev: 1, Len: 68 -> FPDT.aml
+14:006  0:089    27. 93C8A000: 'BGRT', 'TP-N2O', Rev: 1, Len: 56 -> BGRT.aml
+14:104  0:097    28. 981B7000: 'UEFI', 'TP-N2O', Rev: 1, Len: 298 -> UEFI.aml
+14:266  0:162    Tables in Rsdt: 29
+14:266  0:000    0. 95CAD000: 'FACP', 'TP-N2O', Rev: 6, Len: 276
+14:266  0:000        (Dsdt: 95C82000, Facs: 981EB000, XDsdt: 95C82000, XFacs: 0)
+14:266  0:000        95C82000: 'DSDT', 'CFL', Rev: 2, Len: 157823
+14:269  0:002        981EB000: 'FACS', Ver: 2, Len: 64
+14:269  0:000    1. 95D04000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+14:269  0:000    2. 95D03000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+14:269  0:000    3. 95CC9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 21120
+14:269  0:000    4. 95CB2000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12605
+14:269  0:000    5. 95CAF000: 'SSDT', 'PegSsdt', Rev: 2, Len: 10844
+14:269  0:000    6. 9820C000: 'UEFI', 'TP-N2O', Rev: 1, Len: 66
+14:269  0:000    7. 95CAE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+14:269  0:000    8. 95CAC000: 'HPET', 'TP-N2O', Rev: 1, Len: 56
+14:269  0:000    9. 95CAB000: 'APIC', 'TP-N2O', Rev: 3, Len: 300
+14:269  0:000    10. 95CAA000: 'MCFG', 'TP-N2O', Rev: 1, Len: 60
+14:269  0:000    11. 95CA9000: 'ECDT', 'TP-N2O', Rev: 1, Len: 83
+14:269  0:000    12. 95C80000: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 6725
+14:269  0:000    13. 95C7D000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 10507
+14:269  0:000    14. 95C7C000: 'BOOT', 'TP-N2O', Rev: 1, Len: 40
+14:269  0:000    15. 95C7B000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3817
+14:269  0:000    16. 95C7A000: 'LPIT', 'TP-N2O', Rev: 1, Len: 148
+14:269  0:000    17. 95C79000: 'WSMT', 'TP-N2O', Rev: 1, Len: 40
+14:269  0:000    18. 95C77000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5759
+14:269  0:000    19. 95C76000: 'DBGP', 'TP-N2O', Rev: 1, Len: 52
+14:269  0:000    20. 95C75000: 'DBG2', 'TP-N2O', Rev: 0, Len: 84
+14:269  0:000    21. 95C74000: 'MSDM', 'TP-N2O', Rev: 3, Len: 85
+14:269  0:000    22. 95A96000: 'BATB', 'TP-N2O', Rev: 2, Len: 74
+14:269  0:000    23. 93C8F000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 6971
+14:269  0:000    24. 93C8E000: 'NHLT', 'TP-N2O', Rev: 0, Len: 45
+14:269  0:000    25. 93C8D000: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+14:269  0:000    26. 93C8B000: 'FPDT', 'TP-N2O', Rev: 1, Len: 68
+14:269  0:000    27. 93C8A000: 'BGRT', 'TP-N2O', Rev: 1, Len: 56
+14:269  0:000    28. 981B7000: 'UEFI', 'TP-N2O', Rev: 1, Len: 298
+14:269  0:000  Found UEFI Acpi 1.0 RSDP at 9840E000
+14:269  0:000  Printing ACPI tables from RSDP 9840E000 ...
+14:269  0:000   9840E000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+14:269  0:000    (Rsdt: 9840C000)
+14:269  0:000    9840C000: 'RSDT', 'TP-N2O', Rev: 1, Len: 152
+14:269  0:000    Tables in Rsdt: 29
+14:269  0:000    0. 95CAD000: 'FACP', 'TP-N2O', Rev: 6, Len: 276
+14:269  0:000        (Dsdt: 95C82000, Facs: 981EB000, XDsdt: 95C82000, XFacs: 0)
+14:269  0:000        95C82000: 'DSDT', 'CFL', Rev: 2, Len: 157823
+14:272  0:002        981EB000: 'FACS', Ver: 2, Len: 64
+14:272  0:000    1. 95D04000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+14:272  0:000    2. 95D03000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+14:272  0:000    3. 95CC9000: 'SSDT', 'DptfTabl', Rev: 2, Len: 21120
+14:272  0:000    4. 95CB2000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12605
+14:272  0:000    5. 95CAF000: 'SSDT', 'PegSsdt', Rev: 2, Len: 10844
+14:272  0:000    6. 9820C000: 'UEFI', 'TP-N2O', Rev: 1, Len: 66
+14:272  0:000    7. 95CAE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+14:272  0:000    8. 95CAC000: 'HPET', 'TP-N2O', Rev: 1, Len: 56
+14:272  0:000    9. 95CAB000: 'APIC', 'TP-N2O', Rev: 3, Len: 300
+14:272  0:000    10. 95CAA000: 'MCFG', 'TP-N2O', Rev: 1, Len: 60
+14:272  0:000    11. 95CA9000: 'ECDT', 'TP-N2O', Rev: 1, Len: 83
+14:272  0:000    12. 95C80000: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 6725
+14:272  0:000    13. 95C7D000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 10507
+14:272  0:000    14. 95C7C000: 'BOOT', 'TP-N2O', Rev: 1, Len: 40
+14:272  0:000    15. 95C7B000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3817
+14:272  0:000    16. 95C7A000: 'LPIT', 'TP-N2O', Rev: 1, Len: 148
+14:272  0:000    17. 95C79000: 'WSMT', 'TP-N2O', Rev: 1, Len: 40
+14:272  0:000    18. 95C77000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5759
+14:272  0:000    19. 95C76000: 'DBGP', 'TP-N2O', Rev: 1, Len: 52
+14:272  0:000    20. 95C75000: 'DBG2', 'TP-N2O', Rev: 0, Len: 84
+14:272  0:000    21. 95C74000: 'MSDM', 'TP-N2O', Rev: 3, Len: 85
+14:272  0:000    22. 95A96000: 'BATB', 'TP-N2O', Rev: 2, Len: 74
+14:272  0:000    23. 93C8F000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 6971
+14:272  0:000    24. 93C8E000: 'NHLT', 'TP-N2O', Rev: 0, Len: 45
+14:272  0:000    25. 93C8D000: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+14:272  0:000    26. 93C8B000: 'FPDT', 'TP-N2O', Rev: 1, Len: 68
+14:272  0:000    27. 93C8A000: 'BGRT', 'TP-N2O', Rev: 1, Len: 56
+14:272  0:000    28. 981B7000: 'UEFI', 'TP-N2O', Rev: 1, Len: 298
