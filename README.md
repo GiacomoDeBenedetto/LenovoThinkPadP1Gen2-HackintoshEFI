@@ -1,4 +1,4 @@
-# LenovoP1Gen2-HackintoshEFI
+# Lenovo ThinkPad P1 Gen2 Hackintosh EFI
 A working EFI directory for Lenovo P1 Gen2 Hackintosh.
 Tested with MacOS Catalina 10.15.
 Not tested with newer versions.
